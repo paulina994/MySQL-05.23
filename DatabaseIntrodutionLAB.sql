@@ -1,6 +1,7 @@
 CREATE DATABASE `gamebar` ;
 USE `gamebar`;
-/*Create Tables*/
+
+01.Create Tables
 CREATE TABLE `employees`(
 `id` INT PRIMARY KEY AUTO_INCREMENT,
 `first_name` VARCHAR(30) NOT NULL,
@@ -11,7 +12,6 @@ CREATE TABLE `categories`(
 `name` VARCHAR(40) NOT NULL
 );
 CREATE TABLE `products`(
-01.Create Tables
 `id` INT PRIMARY KEY AUTO_INCREMENT,
 `name` VARCHAR(40) NOT NULL,
 `category_id` INT NOT NULL
