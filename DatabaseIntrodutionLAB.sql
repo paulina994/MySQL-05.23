@@ -1,4 +1,3 @@
-
 CREATE DATABASE `gamebar` ;
 USE `gamebar`;
 /*Create Tables*/
@@ -39,6 +38,3 @@ FOREIGN KEY (`category_id`) REFERENCES `categories`(`id`);
 5.Modifying Columns
 ALTER TABLE `employees`
 MODIFY COLUMN `middle_name` VARCHAR(100);
-
-
- 
